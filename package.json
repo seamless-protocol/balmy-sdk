@@ -1,5 +1,5 @@
 {
-  "name": "@balmy/sdk",
+  "name": "seamless-protocol/balmy-sdk",
   "version": "0.9.0",
   "contributors": [
     {
@@ -79,7 +79,11 @@
     "tsconfig-replace-paths": "0.0.14",
     "typescript": "5.4.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seamless-protocol/balmy-sdk.git"
+  },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   }
 }
