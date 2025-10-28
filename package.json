@@ -31,7 +31,6 @@
     "build": "tsc -p tsconfig.json && tsconfig-replace-paths -s src -p tsconfig.json",
     "lint:check": "prettier --check .",
     "lint:fix": "sort-package-json && prettier --write .",
-    "prepare": "husky install",
     "script": "ts-node -r tsconfig-paths/register",
     "test": "jest --forceExit --detectOpenHandles --verbose",
     "test:integration": "jest --forceExit --detectOpenHandles --verbose --testPathPattern=test/integration -t \"^(?!.*\\[External Quotes\\]).*$\"",
