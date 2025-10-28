@@ -84,6 +84,7 @@
     "url": "https://github.com/seamless-protocol/balmy-sdk.git"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   }
 }
