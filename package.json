@@ -28,7 +28,7 @@
     "dist/**"
   ],
   "scripts": {
-    "prepare": "npm install --only=dev && npm run build",
+    "prepare": "npm install --only=dev --ignore-scripts && npm run build",
     "build": "tsc -p tsconfig.json && tsconfig-replace-paths -s src -p tsconfig.json",
     "lint:check": "prettier --check .",
     "lint:fix": "sort-package-json && prettier --write .",
